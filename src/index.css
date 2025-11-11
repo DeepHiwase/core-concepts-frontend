@@ -4,3 +4,8 @@
   --font-weight-extrablack: 1000;
   --color-regal-blue: #243c5a;
 }
+/* since oblique is not present in tw */
+.custom_oblique {
+  font-style: oblique;
+  font-style: oblique 14deg;
+}
