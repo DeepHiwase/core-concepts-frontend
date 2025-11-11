@@ -9,39 +9,22 @@ const App = () => {
           Deep
         </a>
       </div>
-      <ul className="list-disc md:list-none pl-5">
-        <li>Cake</li>
-        <li>Pastery</li>
-        <li>Chocolate</li>
-        <li>Lemon</li>
-      </ul>
+      <p className="w-[75%] text-left sm:text-right md:text-center lg:text-justify">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, enim
+        omnis? Similique, at culpa atque quisquam aperiam odio exercitationem
+        non dolore quos. Rem ullam nemo, ratione dolor nesciunt quia molestias
+        eum. Necessitatibus molestiae velit perferendis nam vitae explicabo quas
+        placeat quisquam illo error eveniet dolorem nobis aliquid iusto,
+        quibusdam cum perspiciatis ea suscipit facilis? Sint labore culpa ipsam
+        harum molestiae dolor suscipit libero quasi, ut esse doloribus
+        cupiditate officia nesciunt. Pariatur tenetur id perferendis excepturi
+        expedita quaerat sint dolore! Repudiandae excepturi eveniet aut,
+        obcaecati eos praesentium doloremque veniam reiciendis inventore
+        consectetur commodi explicabo ipsum aliquid a fugit sint asperiores
+        harum?
+      </p>
       <hr />
-      <ol className="list-decimal md:list-none pl-5">
-        <li>Cake</li>
-        <li>
-          <ol className="list-decimal sm:list-[circle] md:list-[upper-roman] lg:list-[lower-roman] pl-4">
-            <li>Hi nested list</li>
-            <li>Hi nested list 2</li>
-            <li>Hi nested list 3</li>
-          </ol>
-        </li>
-        <li>Chocolate</li>
-        <li>Lemon</li>
-      </ol>
-      <hr />
-      <ul className="list-disc list-outside md:list-inside pl-5">
-        <li>Cakealsndalsnnalllllllllllllllllllllllasndaskmdamsdamlnasdl</li>
-        <li>Pastery</li>
-        <li>Chocolate</li>
-        <li>Lemon</li>
-      </ul>
-      <hr />
-      <ul className="list-disc list-image-none sm:list-image-[url(./checkmark.png)] md:list-image-[url(./tailwind-checkmark.svg)] pl-5">
-        <li>Cakealsndalsnnalllllllllllllllllllllllasndaskmdamsdamlnasdl</li>
-        <li>Pastery</li>
-        <li>Chocolate</li>
-        <li>Lemon</li>
-      </ul>
+      <div className="text-end md:text-start">HI Single!</div>
       {/* <div className="container">
         <div>1sabdbjiennnxjjiw</div>
         <div>1</div>
