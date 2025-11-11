@@ -3,13 +3,18 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <span className="">Hi Grid & Flex!</span>
+      <span className="tracking-normal sm:tracking-tight md:tracking-tighter">
+        Hi Grid & Flex!
+      </span>
       <div>
-        <a href="https://x.com" className="">
+        <a
+          href="https://x.com"
+          className="tracking-wide sm:tracking-wider md:tracking-widest"
+        >
           Deep
         </a>
       </div>
-      <p className="text-2xl/tight md:text-2xl/[50px] sm:leading-9">
+      <p className="-tracking-normal sm:-tracking-tight md:-tracking-tighter lg:-tracking-wide">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, enim
         omnis? Similique, at culpa atque quisquam aperiam odio exercitationem
         non dolore quos. Rem ullam nemo, ratione dolor nesciunt quia molestias
@@ -24,7 +29,7 @@ const App = () => {
         harum?
       </p>
       <hr />
-      <div className="leading-0 sm:leading-none">HI Single!</div>
+      <div className="tracking-2">HI Single!</div>
       {/* <div className="container">
         <div>1sabdbjiennnxjjiw</div>
         <div>1</div>

@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --font-weight-extrablack: 1000;
   --color-regal-blue: #243c5a;
-  --spacing: 4px;
+
+  --tracking-1: 0em;
+  --tracking-2: 0.025em;
+  --tracking-3: 0.05em;
+  --tracking-4: 0.1em;
+
+  --tracking-tighest: -0.075em;
 }
