@@ -3,9 +3,9 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <span className="italic md:not-italic">Hi Grid & Flex!</span>
+      <span className="uppercase sm:normal-case md:lowercase lg:capitalize">Hi Grid & Flex!</span>
       <div>
-        <a href="https://x.com" className="custom_oblique">
+        <a href="https://x.com" className="">
           Deep
         </a>
       </div>
