@@ -3,8 +3,8 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <span>Hi Grid & Flex!</span>
-      <div className="container">
+      <span className="font-normal md:font-bold lg:font-extrablack">Hi Grid & Flex!</span>
+      {/* <div className="container">
         <div>1sabdbjiennnxjjiw</div>
         <div>1</div>
         <div>1</div>
@@ -14,7 +14,7 @@ const App = () => {
         <div>1</div>
         <div>1</div>
         <div>1</div>
-      </div>
+      </div> */}
     </>
   );
 };
