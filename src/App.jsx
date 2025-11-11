@@ -9,7 +9,7 @@ const App = () => {
           Deep
         </a>
       </div>
-      <p className="w-[75%] text-left sm:text-right md:text-center lg:text-justify">
+      <p className="text-2xl/tight md:text-2xl/[50px] sm:leading-9">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, enim
         omnis? Similique, at culpa atque quisquam aperiam odio exercitationem
         non dolore quos. Rem ullam nemo, ratione dolor nesciunt quia molestias
@@ -24,7 +24,7 @@ const App = () => {
         harum?
       </p>
       <hr />
-      <div className="text-end md:text-start">HI Single!</div>
+      <div className="leading-0 sm:leading-none">HI Single!</div>
       {/* <div className="container">
         <div>1sabdbjiennnxjjiw</div>
         <div>1</div>
