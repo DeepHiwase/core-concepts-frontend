@@ -3,18 +3,13 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <span className="text-xs sm:text-sm md:text-base lg:text-lg">
-        Hi Grid & Flex!
-      </span>
+      <span className="font-sans">Hi Grid & Flex!</span>
       <div>
-        <a
-          href="https://x.com"
-          className="text-xl sm:text-2xl md:text-3xl"
-        >
+        <a href="https://x.com" className="font-serif">
           Deep
         </a>
       </div>
-      <p className="">
+      <p className="font-mono">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, enim
         omnis? Similique, at culpa atque quisquam aperiam odio exercitationem
         non dolore quos. Rem ullam nemo, ratione dolor nesciunt quia molestias
@@ -29,7 +24,10 @@ const App = () => {
         harum?
       </p>
       <hr />
-      <div className="text-tiny">HI Single!</div>
+      <div className="font-[Inter]">HI Single!</div>
+      <div className="font-[Open_Sans]">HI Single!</div>
+      <div className="font-display">HI Single!</div>
+      <div className="font-roboto">HI Single!</div>
       {/* <div className="container">
         <div>1sabdbjiennnxjjiw</div>
         <div>1</div>

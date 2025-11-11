@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
 
 @theme {
   --color-regal-blue: #243c5a;
-
-  --text-tiny: 0.625rem;
-  --text-tiny--line-height: 1.5rem;
-  --text-tiny--letter-spacing: 0.125rem;
-  --text-tiny--font-weight: 500;
+  --font-display: "Oswald", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
 }
+
+/* @font-face {
+  font-family: ;
+  src: url();
+} */
